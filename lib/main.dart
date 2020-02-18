@@ -92,11 +92,28 @@ class _MyHomePageState extends State<MyHomePage> {
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
             Text(
-              'You have pushed the button this many times:',
+              'Live Ping Test:',
             ),
             Text(
               '$_counter',
               style: Theme.of(context).textTheme.display1,
+            ),
+            ButtonBar(
+              mainAxisSize: MainAxisSize.min,
+              children: <Widget>[
+                RaisedButton(
+                  child: Text('Home'),
+                  onPressed: null,
+                ),
+                RaisedButton(
+                  child: Text('Results'),
+                    onPressed: null,
+                ),
+                RaisedButton(
+                  child: Text('Settings'),
+                  onPressed: null,
+                ),
+              ],
             ),
           ],
         ),
