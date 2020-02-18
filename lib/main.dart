@@ -19,6 +19,7 @@ class MyApp extends StatelessWidget {
         // Notice that the counter didn't reset back to zero; the application
         // is not restarted.
         primarySwatch: Colors.teal,
+
       ),
       home: MyHomePage(title: 'Live Ping Test'),
     );
