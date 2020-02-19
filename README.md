@@ -1,4 +1,4 @@
-# test_flutter_app
+# RocketPing - Silent Notification
 
 Minimal background app written in Flutter that will generate a live network speed test and return
 the results of ping and mbps as a silent notification on android. Ideally, the app should run in
