@@ -1,3 +1,5 @@
+import 'dart:ui';
+
 import 'package:flutter/material.dart';
 
 void main() => runApp(MyApp());
@@ -114,6 +116,7 @@ class _MyHomePageState extends State<MyHomePage> {
           // horizontal).
           mainAxisAlignment: MainAxisAlignment.spaceBetween,
           children: <Widget>[
+            Image(image: AssetImage('images/startup.png')),
             Text(
               'Live Ping Test:',
               style:
